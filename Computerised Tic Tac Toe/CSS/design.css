@@ -1,0 +1,113 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Patrick Hand';
+}
+
+body {
+    background: #7b176f;
+    background: -webkit-linear-gradient(0deg, #7b176f 0%, #e6d048 100%);
+    background: linear-gradient(0deg, #7b176f 0%, #e6d048 100%);
+}
+
+.title {
+    margin-top: 120px;
+    margin-bottom: -100px;
+    font-size: 50px;
+    color: white;
+    border: solid white;
+    background: #474bff;
+    background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+
+}
+
+.board {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: repeat(3, auto);
+    
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background: lightpink;
+    margin: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    
+    
+}
+
+.clicked {
+    color: rgb(255, 252, 201);
+    text-shadow: 2px 2px red;
+}
+
+.cell:hover {
+    background: gray;
+}
+
+.cell:first-child,
+.cell:nth-child(2),
+.cell:nth-child(3) {
+    border-top: none;
+}
+
+.cell:first-child,
+.cell:nth-child(4),
+.cell:nth-child(7) {
+    border-left: none;
+}
+
+.cell:nth-child(3n+3) {
+    border-right: none;
+}
+
+.cell:last-child,
+.cell:nth-child(7),
+.cell:nth-child(8) {
+    border-bottom: none;
+}
+
+.stats {
+    margin: 50px;
+    margin-top: -50px;
+}
+
+#status {
+    margin: 30px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10%;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    background-color: royalblue;
+}
+
+button:hover {
+    background: grey;
+}
+
+#h1{
+    color: white;
+}
