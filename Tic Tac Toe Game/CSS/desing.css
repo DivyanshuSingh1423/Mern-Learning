@@ -1,0 +1,44 @@
+button{
+    width: 100px;
+    height: 100px;
+    background:lightgrey ;
+    font-size: 50px; 
+    cursor: pointer;
+    border: solid black;
+    border-radius: 10px;
+ 
+    
+}
+button:hover{
+        background-color: aqua;
+        transition: 1s;
+}
+
+table{
+    border:thick double black;
+    background-color: bisque;
+    margin: auto;
+    margin-top: 150px;
+    -webkit-box-shadow:0px 0px 105px 51px rgba(138,2,196,0.9);
+    -moz-box-shadow: 0px 0px 105px 51px rgba(138,2,196,0.9);
+    box-shadow: 0px 0px 105px 51px rgba(138,2,196,0.9);
+}
+h1{
+    color: black;
+    font-size: 80px;
+    background: #1b4090;
+    background: -webkit-linear-gradient(0deg, #1b4090 0%, #070108 50%, #c853a3 100%);
+    background: linear-gradient(0deg, #1b4090 0%, #000000 50%, #c853a3 100%);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    outline: outset;
+    text-shadow:white 0px 0px 50px;
+    outline: auto;
+}
+body{
+    background: black;
+}
+h3{
+    color: white;
+}
