@@ -1,0 +1,60 @@
+input {
+    padding: 1px 7px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 1px solid black;
+}
+label {
+    font-weight: 800;
+    color: black;
+    font-size: 18px;
+}
+h1{
+    border-radius: 12px;
+    font-size: 2.3rem;
+    color: rgb(5,5,6);
+    padding-left: 15px;
+    padding-top: 25px;
+}
+p {
+    padding: .2rem;
+    font-size: 16px;
+    color: white;
+}
+.maindiv {
+    width: 100;
+    height: 100;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 70;
+    width: 26;
+    backdrop-filter: blur(100px);
+    background: gray ;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 30;
+    opacity: 85%;
+    box-shadow: black 20px 20px 20px 20px;
+    /* background-image: url('https://imgs.search.brave.com/Fp8tHxo4d5g_RjstSzcpoYYTIvVVPaceLY4cEWW3Jx4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2M4LzAw/LzQ1L2M4MDA0NTFl/M2VmNjRmOWJkZjhh/ODZhNmY5YzI2ZTk2/LmpwZw'); */
+}
+body{
+    background-image: url('https://mcdn.wallpapersafari.com/medium/82/74/YSe2kG.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    
+}
+button{
+    color: white;
+    background-color: lightskyblue;
+    
+}
+button:hover{
+    background-color: black;
+    
+
+}
